@@ -3,7 +3,7 @@
 #Если он ответил “no” - продолжайте - продолжайте вывод чисел.
 #Если что-то другое - напечатайте "Don't understand you" и продолжайте спрашивать до тех пор, пока ответ не будет корректным.
 
-for i in range(1, 100):
+for i in range(1, 101):
     answer = input('Should we break?')
     if answer == 'yes':
         break
