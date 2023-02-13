@@ -4,10 +4,10 @@
 # Выведите результат работы на экран.
 
 user = list(map(str, input().lower().split()))
-glasnie = ['a', 'e', 'i', 'o', 'u']
+vowels = ['a', 'e', 'i', 'o', 'u']
 
 def remove_vowels(user):
-    my_list = list(filter(lambda i: i not in glasnie, user))
+    my_list = list(filter(lambda i: i not in vowels, user))
     return my_list
 
 print(remove_vowels(user))
