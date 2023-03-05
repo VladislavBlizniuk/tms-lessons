@@ -1,3 +1,5 @@
+#Напишите функцию-генератор generate_words, которая принимает текст
+#разбивает их на слова и отдаёт (yield) по одному.
 def generate_words(string: str):
     list_str = string.split()
     for i in list_str:
